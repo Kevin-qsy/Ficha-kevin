@@ -1,0 +1,119 @@
+[
+  {
+    "id": "padded",
+    "name": "Armadura acolchoada",
+    "category": "light",
+    "ac": 11,
+    "dexMax": null,
+    "strReq": 0,
+    "stealthDisadvantage": true
+  },
+  {
+    "id": "leather",
+    "name": "Armadura de couro",
+    "category": "light",
+    "ac": 11,
+    "dexMax": null,
+    "strReq": 0,
+    "stealthDisadvantage": false
+  },
+  {
+    "id": "studded_leather",
+    "name": "Armadura de couro batido",
+    "category": "light",
+    "ac": 12,
+    "dexMax": null,
+    "strReq": 0,
+    "stealthDisadvantage": false
+  },
+
+  {
+    "id": "hide",
+    "name": "Gibão de peles",
+    "category": "medium",
+    "ac": 12,
+    "dexMax": 2,
+    "strReq": 0,
+    "stealthDisadvantage": false
+  },
+  {
+    "id": "chain_shirt",
+    "name": "Cota de malha (camisa)",
+    "category": "medium",
+    "ac": 13,
+    "dexMax": 2,
+    "strReq": 0,
+    "stealthDisadvantage": false
+  },
+  {
+    "id": "scale_mail",
+    "name": "Brunea",
+    "category": "medium",
+    "ac": 14,
+    "dexMax": 2,
+    "strReq": 0,
+    "stealthDisadvantage": true
+  },
+  {
+    "id": "breastplate",
+    "name": "Peitoral",
+    "category": "medium",
+    "ac": 14,
+    "dexMax": 2,
+    "strReq": 0,
+    "stealthDisadvantage": false
+  },
+  {
+    "id": "half_plate",
+    "name": "Meia-placa",
+    "category": "medium",
+    "ac": 15,
+    "dexMax": 2,
+    "strReq": 0,
+    "stealthDisadvantage": true
+  },
+
+  {
+    "id": "ring_mail",
+    "name": "Cota de anéis",
+    "category": "heavy",
+    "ac": 14,
+    "dexMax": 0,
+    "strReq": 0,
+    "stealthDisadvantage": true
+  },
+  {
+    "id": "chain_mail",
+    "name": "Cota de malha",
+    "category": "heavy",
+    "ac": 16,
+    "dexMax": 0,
+    "strReq": 13,
+    "stealthDisadvantage": true
+  },
+  {
+    "id": "splint",
+    "name": "Armadura de talas",
+    "category": "heavy",
+    "ac": 17,
+    "dexMax": 0,
+    "strReq": 15,
+    "stealthDisadvantage": true
+  },
+  {
+    "id": "plate",
+    "name": "Armadura de placas",
+    "category": "heavy",
+    "ac": 18,
+    "dexMax": 0,
+    "strReq": 15,
+    "stealthDisadvantage": true
+  },
+
+  {
+    "id": "shield",
+    "name": "Escudo",
+    "category": "shield",
+    "acBonus": 2
+  }
+]

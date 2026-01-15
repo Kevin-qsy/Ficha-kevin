@@ -1,0 +1,37 @@
+[
+  { "id": "barbarian-a", "classId": "barbarian", "name": "Bárbaro — Pacote A", "items": ["Machado grande", "2 machados de mão", "Pacote do aventureiro", "4 azagaias"] },
+  { "id": "barbarian-b", "classId": "barbarian", "name": "Bárbaro — Pacote B", "items": ["Espada grande", "2 machados de mão", "Pacote do aventureiro", "4 azagaias"] },
+
+  { "id": "bard-a", "classId": "bard", "name": "Bardo — Pacote A", "items": ["Rapieira", "Armadura de couro", "Adaga", "Instrumento musical", "Pacote do artista"] },
+  { "id": "bard-b", "classId": "bard", "name": "Bardo — Pacote B", "items": ["Espada longa", "Armadura de couro", "Adaga", "Instrumento musical", "Pacote do diplomata"] },
+
+  { "id": "cleric-a", "classId": "cleric", "name": "Clérigo — Pacote A", "items": ["Cota de malha", "Escudo", "Maça", "Símbolo sagrado", "Pacote do sacerdote"] },
+  { "id": "cleric-b", "classId": "cleric", "name": "Clérigo — Pacote B", "items": ["Cota de escamas", "Escudo", "Martelo de guerra", "Símbolo sagrado", "Pacote do aventureiro"] },
+
+  { "id": "druid-a", "classId": "druid", "name": "Druida — Pacote A", "items": ["Escudo de madeira", "Cimitarra", "Foco druídico", "Pacote do explorador"] },
+  { "id": "druid-b", "classId": "druid", "name": "Druida — Pacote B", "items": ["Escudo de madeira", "Foice", "Foco druídico", "Pacote do explorador"] },
+
+  { "id": "fighter-a", "classId": "fighter", "name": "Guerreiro — Pacote A", "items": ["Cota de malha", "Escudo", "Espada longa", "Arco longo", "20 flechas", "Pacote do aventureiro"] },
+  { "id": "fighter-b", "classId": "fighter", "name": "Guerreiro — Pacote B", "items": ["Armadura de couro", "Arco longo", "20 flechas", "Rapieira", "Pacote do explorador"] },
+
+  { "id": "monk-a", "classId": "monk", "name": "Monge — Pacote A", "items": ["Espada curta", "10 dardos", "Pacote do explorador"] },
+  { "id": "monk-b", "classId": "monk", "name": "Monge — Pacote B", "items": ["Cajado", "10 dardos", "Pacote do explorador"] },
+
+  { "id": "paladin-a", "classId": "paladin", "name": "Paladino — Pacote A", "items": ["Cota de malha", "Escudo", "Espada longa", "5 azagaias", "Símbolo sagrado", "Pacote do sacerdote"] },
+  { "id": "paladin-b", "classId": "paladin", "name": "Paladino — Pacote B", "items": ["Cota de escamas", "Escudo", "Martelo de guerra", "5 azagaias", "Símbolo sagrado", "Pacote do aventureiro"] },
+
+  { "id": "ranger-a", "classId": "ranger", "name": "Patrulheiro — Pacote A", "items": ["Armadura de couro", "Arco longo", "20 flechas", "Espada curta (x2)", "Pacote do explorador"] },
+  { "id": "ranger-b", "classId": "ranger", "name": "Patrulheiro — Pacote B", "items": ["Armadura de couro", "Arco longo", "20 flechas", "Espada longa (x2)", "Pacote do explorador"] },
+
+  { "id": "rogue-a", "classId": "rogue", "name": "Ladino — Pacote A", "items": ["Rapieira", "Armadura de couro", "Adaga (x2)", "Ferramentas de ladrão", "Pacote do assaltante"] },
+  { "id": "rogue-b", "classId": "rogue", "name": "Ladino — Pacote B", "items": ["Espada curta", "Armadura de couro", "Adaga (x2)", "Ferramentas de ladrão", "Pacote do aventureiro"] },
+
+  { "id": "sorcerer-a", "classId": "sorcerer", "name": "Feiticeiro — Pacote A", "items": ["Adaga (x2)", "Foco arcano", "Pacote do explorador"] },
+  { "id": "sorcerer-b", "classId": "sorcerer", "name": "Feiticeiro — Pacote B", "items": ["Besta leve", "20 virotes", "Foco arcano", "Pacote do explorador"] },
+
+  { "id": "warlock-a", "classId": "warlock", "name": "Bruxo — Pacote A", "items": ["Armadura de couro", "Besta leve", "20 virotes", "Foco arcano", "Pacote do estudioso"] },
+  { "id": "warlock-b", "classId": "warlock", "name": "Bruxo — Pacote B", "items": ["Armadura de couro", "Rapieira", "Foco arcano", "Pacote do masmorra"] },
+
+  { "id": "wizard-a", "classId": "wizard", "name": "Mago — Pacote A", "items": ["Adaga", "Foco arcano", "Pacote do estudioso"] },
+  { "id": "wizard-b", "classId": "wizard", "name": "Mago — Pacote B", "items": ["Adaga", "Foco arcano", "Pacote do explorador"] }
+]

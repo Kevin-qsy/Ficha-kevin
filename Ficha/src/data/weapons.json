@@ -1,0 +1,375 @@
+[
+  {
+    "id": "club",
+    "name": "Clava",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d4",
+    "damageType": "concussão",
+    "hands": 1,
+    "properties": ["leve"]
+  },
+  {
+    "id": "dagger",
+    "name": "Adaga",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d4",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["finesse", "leve", "arremesso (6/18)"]
+  },
+  {
+    "id": "greatclub",
+    "name": "Clava grande",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "concussão",
+    "hands": 2,
+    "properties": ["duas mãos"]
+  },
+  {
+    "id": "handaxe",
+    "name": "Machado de mão",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "cortante",
+    "hands": 1,
+    "properties": ["leve", "arremesso (6/18)"]
+  },
+  {
+    "id": "javelin",
+    "name": "Azagaia",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["arremesso (9/36)"]
+  },
+  {
+    "id": "light_hammer",
+    "name": "Martelo leve",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d4",
+    "damageType": "concussão",
+    "hands": 1,
+    "properties": ["leve", "arremesso (6/18)"]
+  },
+  {
+    "id": "mace",
+    "name": "Maça",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "concussão",
+    "hands": 1,
+    "properties": []
+  },
+  {
+    "id": "quarterstaff",
+    "name": "Bastão",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "concussão",
+    "hands": 1,
+    "properties": ["versátil (1d8)"]
+  },
+  {
+    "id": "sickle",
+    "name": "Foice",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d4",
+    "damageType": "cortante",
+    "hands": 1,
+    "properties": ["leve"]
+  },
+  {
+    "id": "spear",
+    "name": "Lança",
+    "category": "simple",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["arremesso (6/18)", "versátil (1d8)"]
+  },
+
+  {
+    "id": "light_crossbow",
+    "name": "Besta leve",
+    "category": "simple",
+    "type": "ranged",
+    "damage": "1d8",
+    "damageType": "perfurante",
+    "hands": 2,
+    "properties": ["munição (24/96)", "carregar", "duas mãos"]
+  },
+  {
+    "id": "dart",
+    "name": "Dardo",
+    "category": "simple",
+    "type": "ranged",
+    "damage": "1d4",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["finesse", "arremesso (6/18)"]
+  },
+  {
+    "id": "shortbow",
+    "name": "Arco curto",
+    "category": "simple",
+    "type": "ranged",
+    "damage": "1d6",
+    "damageType": "perfurante",
+    "hands": 2,
+    "properties": ["munição (24/96)", "duas mãos"]
+  },
+  {
+    "id": "sling",
+    "name": "Funda",
+    "category": "simple",
+    "type": "ranged",
+    "damage": "1d4",
+    "damageType": "concussão",
+    "hands": 1,
+    "properties": ["munição (9/36)"]
+  },
+
+  {
+    "id": "battleaxe",
+    "name": "Machado de batalha",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "cortante",
+    "hands": 1,
+    "properties": ["versátil (1d10)"]
+  },
+  {
+    "id": "flail",
+    "name": "Mangual",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "concussão",
+    "hands": 1,
+    "properties": []
+  },
+  {
+    "id": "glaive",
+    "name": "Glaive",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d10",
+    "damageType": "cortante",
+    "hands": 2,
+    "properties": ["pesada", "alcance", "duas mãos"]
+  },
+  {
+    "id": "greataxe",
+    "name": "Machado grande",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d12",
+    "damageType": "cortante",
+    "hands": 2,
+    "properties": ["pesada", "duas mãos"]
+  },
+  {
+    "id": "greatsword",
+    "name": "Espada grande",
+    "category": "martial",
+    "type": "melee",
+    "damage": "2d6",
+    "damageType": "cortante",
+    "hands": 2,
+    "properties": ["pesada", "duas mãos"]
+  },
+  {
+    "id": "halberd",
+    "name": "Alabarda",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d10",
+    "damageType": "cortante",
+    "hands": 2,
+    "properties": ["pesada", "alcance", "duas mãos"]
+  },
+  {
+    "id": "lance",
+    "name": "Lança de cavalaria",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d12",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["alcance", "especial"]
+  },
+  {
+    "id": "longsword",
+    "name": "Espada longa",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "cortante",
+    "hands": 1,
+    "properties": ["versátil (1d10)"]
+  },
+  {
+    "id": "maul",
+    "name": "Marreta",
+    "category": "martial",
+    "type": "melee",
+    "damage": "2d6",
+    "damageType": "concussão",
+    "hands": 2,
+    "properties": ["pesada", "duas mãos"]
+  },
+  {
+    "id": "morningstar",
+    "name": "Estrela da manhã",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": []
+  },
+  {
+    "id": "pike",
+    "name": "Pique",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d10",
+    "damageType": "perfurante",
+    "hands": 2,
+    "properties": ["pesada", "alcance", "duas mãos"]
+  },
+  {
+    "id": "rapier",
+    "name": "Rapieira",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["finesse"]
+  },
+  {
+    "id": "scimitar",
+    "name": "Cimitarra",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "cortante",
+    "hands": 1,
+    "properties": ["leve", "finesse"]
+  },
+  {
+    "id": "shortsword",
+    "name": "Espada curta",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["leve", "finesse"]
+  },
+  {
+    "id": "trident",
+    "name": "Tridente",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d6",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["arremesso (6/18)", "versátil (1d8)"]
+  },
+  {
+    "id": "war_pick",
+    "name": "Picareta de guerra",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": []
+  },
+  {
+    "id": "warhammer",
+    "name": "Martelo de guerra",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d8",
+    "damageType": "concussão",
+    "hands": 1,
+    "properties": ["versátil (1d10)"]
+  },
+  {
+    "id": "whip",
+    "name": "Chicote",
+    "category": "martial",
+    "type": "melee",
+    "damage": "1d4",
+    "damageType": "cortante",
+    "hands": 1,
+    "properties": ["finesse", "alcance"]
+  },
+
+  {
+    "id": "blowgun",
+    "name": "Zarabatana",
+    "category": "martial",
+    "type": "ranged",
+    "damage": "1",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["munição (7/28)", "carregar"]
+  },
+  {
+    "id": "hand_crossbow",
+    "name": "Besta de mão",
+    "category": "martial",
+    "type": "ranged",
+    "damage": "1d6",
+    "damageType": "perfurante",
+    "hands": 1,
+    "properties": ["munição (9/36)", "leve", "carregar"]
+  },
+  {
+    "id": "heavy_crossbow",
+    "name": "Besta pesada",
+    "category": "martial",
+    "type": "ranged",
+    "damage": "1d10",
+    "damageType": "perfurante",
+    "hands": 2,
+    "properties": ["munição (30/120)", "pesada", "carregar", "duas mãos"]
+  },
+  {
+    "id": "longbow",
+    "name": "Arco longo",
+    "category": "martial",
+    "type": "ranged",
+    "damage": "1d8",
+    "damageType": "perfurante",
+    "hands": 2,
+    "properties": ["munição (45/180)", "pesada", "duas mãos"]
+  },
+  {
+    "id": "net",
+    "name": "Rede",
+    "category": "martial",
+    "type": "ranged",
+    "damage": "—",
+    "damageType": "especial",
+    "hands": 1,
+    "properties": ["especial", "arremesso (1,5/4,5)"]
+  }
+]

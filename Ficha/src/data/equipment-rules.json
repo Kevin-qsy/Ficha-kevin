@@ -1,0 +1,115 @@
+{
+  "fighter": {
+    "title": "Guerreiro",
+    "fixed": [
+      { "kind": "armor", "id": "leather" },
+      { "kind": "weapon", "id": "longbow" },
+      { "kind": "text", "text": "20 flechas" }
+    ],
+    "groups": [
+      {
+        "id": "fighter_g1",
+        "label": "(a) uma arma marcial e um escudo OU (b) duas armas marciais",
+        "options": [
+          {
+            "id": "a",
+            "label": "(a) Arma marcial + Escudo",
+            "picks": [
+              { "id": "weapon_1", "kind": "weapon", "qty": 1, "filter": { "category": "martial" } },
+              { "id": "shield", "kind": "armor", "qty": 1, "filter": { "category": "shield" } }
+            ]
+          },
+          {
+            "id": "b",
+            "label": "(b) Duas armas marciais",
+            "picks": [
+              { "id": "weapon_1", "kind": "weapon", "qty": 1, "filter": { "category": "martial" } },
+              { "id": "weapon_2", "kind": "weapon", "qty": 1, "filter": { "category": "martial" } }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fighter_g2",
+        "label": "(a) uma besta leve e 20 virotes OU (b) dois machados de mão",
+        "options": [
+          {
+            "id": "a",
+            "label": "(a) Besta leve + 20 virotes",
+            "fixed": [
+              { "kind": "weapon", "id": "light_crossbow" },
+              { "kind": "text", "text": "20 virotes" }
+            ],
+            "picks": []
+          },
+          {
+            "id": "b",
+            "label": "(b) Dois machados de mão",
+            "fixed": [
+              { "kind": "weapon", "id": "handaxe" },
+              { "kind": "weapon", "id": "handaxe" }
+            ],
+            "picks": []
+          }
+        ]
+      },
+      {
+        "id": "fighter_g3",
+        "label": "(a) pacote de aventureiro OU (b) pacote de explorador",
+        "options": [
+          { "id": "a", "label": "(a) Pacote de aventureiro", "picks": [{ "id": "pack", "kind": "pack", "qty": 1, "filter": { "id": "adventurers_pack" } }] },
+          { "id": "b", "label": "(b) Pacote de explorador", "picks": [{ "id": "pack", "kind": "pack", "qty": 1, "filter": { "id": "explorers_pack" } }] }
+        ]
+      }
+    ]
+  },
+
+  "barbarian": {
+    "title": "Bárbaro",
+    "fixed": [],
+    "groups": [
+      {
+        "id": "barb_g1",
+        "label": "(a) um machado grande OU (b) qualquer arma marcial corpo-a-corpo",
+        "options": [
+          { "id": "a", "label": "(a) Machado grande", "fixed": [{ "kind": "weapon", "id": "greataxe" }], "picks": [] },
+          {
+            "id": "b",
+            "label": "(b) Arma marcial corpo-a-corpo",
+            "picks": [{ "id": "weapon_1", "kind": "weapon", "qty": 1, "filter": { "category": "martial", "type": "melee" } }]
+          }
+        ]
+      },
+      {
+        "id": "barb_g2",
+        "label": "(a) dois machados de mão OU (b) qualquer arma simples",
+        "options": [
+          { "id": "a", "label": "(a) Dois machados de mão", "fixed": [{ "kind": "weapon", "id": "handaxe" }, { "kind": "weapon", "id": "handaxe" }], "picks": [] },
+          {
+            "id": "b",
+            "label": "(b) Arma simples",
+            "picks": [{ "id": "weapon_1", "kind": "weapon", "qty": 1, "filter": { "category": "simple" } }]
+          }
+        ]
+      },
+      {
+        "id": "barb_g3",
+        "label": "Pacote + itens",
+        "options": [
+          {
+            "id": "a",
+            "label": "Pacote de aventureiro + 4 azagaias",
+            "fixed": [
+              { "kind": "pack", "id": "adventurers_pack" },
+              { "kind": "weapon", "id": "javelin" },
+              { "kind": "weapon", "id": "javelin" },
+              { "kind": "weapon", "id": "javelin" },
+              { "kind": "weapon", "id": "javelin" }
+            ],
+            "picks": []
+          }
+        ]
+      }
+    ]
+  }
+}

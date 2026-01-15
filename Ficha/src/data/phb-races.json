@@ -1,0 +1,22 @@
+[
+  { "id": "human", "name": "Humano", "group": "human", "bonusValues": [1,1,1,1,1,1] },
+  { "id": "human-variant", "name": "Humano Variante", "group": "human", "bonusValues": [1,1] },
+
+  { "id": "hill-dwarf", "name": "Anão da Colina", "group": "dwarf", "bonusValues": [2,1] },
+  { "id": "mountain-dwarf", "name": "Anão da Montanha", "group": "dwarf", "bonusValues": [2,1] },
+
+  { "id": "high-elf", "name": "Alto Elfo", "group": "elf", "bonusValues": [2,1] },
+  { "id": "wood-elf", "name": "Elfo da Floresta", "group": "elf", "bonusValues": [2,1] },
+  { "id": "drow", "name": "Elfo Negro (Drow)", "group": "elf", "bonusValues": [2,1] },
+
+  { "id": "lightfoot-halfling", "name": "Halfling Pés-Leves", "group": "halfling", "bonusValues": [2,1] },
+  { "id": "stout-halfling", "name": "Halfling Robusto", "group": "halfling", "bonusValues": [2,1] },
+
+  { "id": "forest-gnome", "name": "Gnomo da Floresta", "group": "gnome", "bonusValues": [2,1] },
+  { "id": "rock-gnome", "name": "Gnomo das Rochas", "group": "gnome", "bonusValues": [2,1] },
+
+  { "id": "dragonborn", "name": "Draconato", "group": "other", "bonusValues": [2,1] },
+  { "id": "half-elf", "name": "Meio-Elfo", "group": "other", "bonusValues": [2,1,1] },
+  { "id": "half-orc", "name": "Meio-Orc", "group": "other", "bonusValues": [2,1] },
+  { "id": "tiefling", "name": "Tiefling", "group": "other", "bonusValues": [2,1] }
+]
